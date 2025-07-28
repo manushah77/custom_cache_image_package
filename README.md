@@ -45,6 +45,21 @@ fit: BoxFit.cover,
 )
 ```
 
+### Basic Example with user name on image if image url not exist
+```dart
+CustomCachedImage(
+imageUrl: 'https://example.com/sample.jpg',
+width: 150,
+height: 150,
+borderRadius: 10,
+isProfile : true,
+name : '${firstName} ${lastName}'
+fit: BoxFit.cover,
+)
+```
+
+
+
 ### Full Example
 ```dart
 import 'package:flutter/material.dart';
