@@ -1,4 +1,4 @@
-## 1.3.0 - 2025-07-18
+## 1.4.0 - 2025-028-18
 
 ### Updated
 - `CustomCachedImage` now conditionally falls back to:
