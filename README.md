@@ -97,25 +97,25 @@ class MyApp extends StatelessWidget {
 ### Adjust Image Dimensions
 ```dart
 CustomCachedImage(
-  imageUrl: 'https://example.com/sample.jpg',
-  width: 300,
-  height: 300,
+imageUrl: 'https://example.com/sample.jpg',
+width: 300,
+height: 300,
 )
 ```
 
 ### Modify Border Radius
 ```dart
 CustomCachedImage(
-  imageUrl: 'https://example.com/sample.jpg',
-  borderRadius: 20,
+imageUrl: 'https://example.com/sample.jpg',
+borderRadius: 20,
 )
 ```
 
 ### Set Image Fit
 ```dart
 CustomCachedImage(
-  imageUrl: 'https://example.com/sample.jpg',
-  fit: BoxFit.cover,
+imageUrl: 'https://example.com/sample.jpg',
+fit: BoxFit.cover,
 )
 ```
 
@@ -125,7 +125,7 @@ CustomCachedImage(
 If an image fails to load, a default fallback image is displayed.
 ```dart
 CustomCachedImage(
-  imageUrl: 'invalid_url', // Broken link
+imageUrl: 'invalid_url', // Broken link
 )
 ```
 _Default error image will be shown._
